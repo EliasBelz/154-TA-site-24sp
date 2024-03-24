@@ -1,0 +1,476 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  width: 100vw;
+}
+
+#email {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  height: 6%
+}
+
+#email img {
+  height: 4em;
+}
+
+#moon {
+  position: absolute;
+  top: 1em;
+  right: 2em;
+}
+
+#p1 {
+  position: absolute;
+  top: 15%;
+  right: 50%;
+}
+
+#p2 {
+  position: absolute;
+  top: 27%;
+  right: 22%;
+}
+
+#p3 {
+  position: absolute;
+  bottom: 37%;
+  left: 14%;
+  height: 4em;
+}
+
+#p4 {
+  position: absolute;
+  bottom: 28%;
+  right: 12%;
+}
+
+#p5 {
+  position: absolute;
+  bottom: 70%;
+  left: 14%;
+  height: 5em;
+}
+
+#welcome img{
+  height: 6em;
+  width: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+#space {
+  background-image: url(images/Galaxy.gif);
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 85vh;
+}
+
+
+#space article {
+  width: 100%;
+  height: 100%;
+}
+
+#clouds {
+  background-image: url(images/clouds_bg.gif);
+  background-size: 350px 200px;
+  padding: 0;
+  margin: 0;
+  height: 650px;
+}
+
+.ribbon {
+  width: 100vw;
+  background-repeat: repeat-x;
+}
+
+.cloud-border {
+  overflow-x: hidden;
+  position: relative;
+  bottom: 5em;
+  height: 200px;
+  background-image: url(images/cloud_gif3.gif);
+  overflow: visible;
+  background-position: -30px 0;
+  overflow-x: none;
+}
+
+#cb-stacked {
+  position: relative;
+  background-position: 80px 0;
+  bottom: 16em;
+  overflow: hidden;
+}
+
+#cloud-dragon {
+  position: absolute;
+  bottom: -13em;
+  right: 3em;
+}
+
+#sun {
+  height: 11em;
+  position: absolute;
+  bottom: -11%;
+  left: 0em;
+}
+
+#genie {
+  position: absolute;
+  bottom: -36em;
+  left: 6em;
+}
+#genie-cloud {
+  position: absolute;
+  bottom: -45em;
+  left: 1em;
+}
+
+#bull-rider {
+  position: absolute;
+  right: 5vw;
+}
+
+#ufo {
+  position: absolute;
+  bottom: 20em;
+  right: 57%;
+  height: 10em;
+}
+
+
+
+#sky {
+  background-color: #a0c8de;
+  width: 100vw;
+  height: 450px;
+}
+
+#earth {
+  width: 100vw;
+  height: 115px;
+  background-image: url(images/grass_tile.gif);
+}
+
+.tree {
+  height: 8em;
+  width: 8em;
+  display: inline-block;
+  position: relative;
+  top: -7.7em;
+  height: 8em;
+  width: auto;
+}
+
+#horse {
+  position: relative;
+  bottom: 81%;
+  right: 8%;
+  height: 8em;
+}
+
+#cat-scratch {
+  position: relative;
+  /* bottom: 0; */
+  right: 20%;
+}
+
+#frog {
+  position: relative;
+  top: -4.5em;
+  height: 4em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#fighting {
+  position: absolute;
+  left: 0;
+}
+
+#butterflies {
+  position: absolute;
+  right: 15px;
+  margin-top: 40px;
+}
+
+#bird-flying {
+  position: absolute;
+  right: 41vw;
+}
+
+#dirt {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/cracked_dirt_bg_tile.jpeg);
+  width: 100vw;
+  height: 1000px;
+}
+
+#earth div {
+  height: 100%;
+  width: 100%;
+}
+
+#f1 {
+  width: auto;
+  top: 106px;
+  left: 20px;
+  height: 10em;
+}
+
+#f2 {
+  width: auto;
+  top: 47px;
+  right: 6%;
+  height: 10em;
+}
+
+#f3 {
+  width: auto;
+    top: 768px;
+    left: 42vw;
+    height: 15em;
+}
+
+#f4 {
+  width: auto;
+  top: 460px;
+  left: 85px;
+  height: 15em;
+}
+
+#f5 {
+  width: auto;
+  top: 300px;
+  left: 40%;
+  height: 19em;
+}
+
+#f6 {
+  width: auto;
+  right: 10%;
+  height: 8em;
+  top: 700px;
+  transform: rotate(50deg);
+}
+
+#f7 {
+  top: 800px;
+  left: 10px;
+  height: 9em;
+  transform: rotate(150deg);
+}
+
+#stalagmites {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(images/stalagmite.png);  height: 100px;
+  background-size: 600px 100px;
+}
+
+#stalagtites {
+  position: relative;
+  top: 350px;
+  background-image: url(images/stalagmite.png);  height: 100px;
+  background-size: 600px 100px;
+  transform: rotate(180deg);
+}
+
+#cave-bottom {
+  height: 25px;
+}
+.cave {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(images/cave_bg_tile.png);
+  height: 100px;
+  background-size: 100px 100px;
+}
+
+#ocean {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/water_bg_tile.gif);
+  height: 700px;
+  background-size: 100px 100px;
+}
+
+#bubbles {
+  position:relative;
+  top: 450px;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fishies {
+  bottom: 321px;
+}
+
+#fishies, #fossils {
+  position: relative;
+  width: 90vw;
+  margin: auto;
+}
+
+#fishies img, #fossils img{
+  position: absolute;
+}
+
+#fi1 {
+  height: 11em;
+  top: 17px;
+  width: auto;
+  left: -5%;
+}
+
+#fi2 {
+  top: 95px;
+  width: auto;
+  left: 6%;
+}
+
+#fi3 {
+  top: 450px;
+  width: auto;
+  right: 6%;
+  height: 7em;
+}
+
+#fi4 {
+  top: 317px;
+  width: auto;
+  right: 50%;
+  height: 8em;
+}
+
+#fi5 {
+  top: 420px;
+  width: auto;
+  left: 14%;
+  height: 8em;
+}
+
+#fi6 {
+  top: 50px;
+  width: auto;
+  right: 7%;
+  height: 6em;
+  transform: scaleX(-1);
+}
+
+#fi7 {
+  top: 220px;
+  width: auto;
+  right: 28%;
+  height: 8em;
+}
+
+#fi8 {
+  top: 250px;
+  width: auto;
+  left: 7%;
+  height: 6em;
+}
+
+h1, h2 {
+  font-size: 4.5em;
+  color: blue;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2em;
+  color: cornflowerblue;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+
+
+li, ol {
+  color: rgb(141, 201, 241);
+  font-size: 24px;
+  padding-top: 5px;
+}
+
+h3 {
+  color: aqua;
+  font-size: 3em;
+}
+#tips {
+  width: 100vw;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+h1, h2, p, h3, li {
+  font-family: "Comic Neue", cursive;
+}
+h1 {
+  position: relative;
+  bottom: 50px;
+  margin: 0;
+}
+
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#info {
+  background-color: black;
+  width: 100vw;
+}
